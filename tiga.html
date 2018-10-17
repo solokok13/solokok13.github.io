@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Detail</title>
+    <style>
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial;
+  }
+
+
+  header {
+      background-color: #666;
+      padding: 30px;
+      text-align: right;
+      font-size: 35px;
+      color: white;
+  }
+
+  menu{
+    width: 100%;
+    height : 40px;
+    margin: auto;
+    position:relative;
+    line-height: 50px;
+    padding-left: 0px;
+
+  }
+
+  menu ul {
+      list-style:none;
+  }
+
+  menu ul li a{
+    width: 100px;
+    height: 40px;
+    border-right: 1px solid;
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+
+  }
+
+  menu ul li a:hover{
+    background-color: blue;
+    display: block;
+  }
+
+  menu ul li:hover .sub1 {display:block}
+  menu ul .sub1 {
+      display:none;
+      text-decoration-color: white;
+      position:absolute;
+      padding-left:  40px;
+      left:100px;
+      top:40px;
+      background-color:#666;
+  }
+  sub1 a:hover { color:#fff }
+
+  menu ul li:hover .sub2 {display:block}
+  menu ul .sub2 {
+      display:none;
+      text-decoration-color: white;
+      position:absolute;
+      padding-left: 15px;
+      left:225px;
+      top:40px;
+      background-color:#666;
+  }
+  sub2 a:hover { color:#fff }
+
+  h3 { color: #666666 ; border: 1px #cccccc; width: 150px ; background-color: #cccccc; text-align: left;}
+
+  nav {
+      float: left;
+      width: 60%;
+      height: 600px;
+      background: #cccccc;
+      padding: 10px;
+      border: 2px solid #666666 ;
+
+  }
+
+  article {
+      float: left;
+      padding: 5px;
+      width: 40%;
+      background-color: #f1f1f1;
+      height: 600px;
+  }
+  #overflowTest {
+      background: #eeeeee;
+      color: black;
+      width: 100%;
+      height: 300px;
+      overflow: scroll;
+      border: 3px solid #ccc;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    border: 3px solid #dddddd;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 5px 5px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding : 5px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+  section:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  @media (max-width: 600px) {
+      nav, article {
+          width: 100%;
+          height: auto;
+      }
+  }
+  </style>
+  </head>
+  <body>
+
+  <header> YukJalan!! <img src="foot.png" style="width : 55px"> </header>
+
+  <menu>
+    <ul>
+      <li><a href="index.html">Home</li></a>
+      <li><a href="">Destination</a>
+      <ul class="sub1">
+                      <li><a href=".html">Air Terjun</a></li>
+                      <li><a href="">Bukit</a></li>
+                      <li><a href="">Pantai</a></li>
+                      <li><a href="">K.Adat</a></li>
+                      <li><a href="">Danau</a></li>
+                  </ul>
+                  </li>
+      <li><a href="#">Location</a>
+      <ul class="sub2">
+                      <li><a href="gallery2.html">S.Tengah</a></li>
+                      <li><a href="">S.Barat</a></li>
+                      <li><a href="">S.Timur</a></li>
+                      <li><a href="">S.Barat Daya</a></li>
+
+                  </ul>
+                  </li>
+      <li><a href="dua.html">About Us</li></a>
+
+    </ul>
+  </menu>
+
+  <h3> Details </h3>
+
+  <section>
+    <nav >
+      <img src="Tanggedu.jpg" style="width : 350px; float :left; padding: 10px">
+        <p style="font-size: 25px"> <b> Air Terjun Tanggedu </b> <img src="star2.png"> </p>
+        <p> Deskripsi </p>
+        <p style="text-align : justify; line-height : 1.5"> Nusa Tenggara Timur, khususnya Sumba, tak hanya terkenal dengan destinasi padang rumput atau pantainya.
+        Air terjun merupakan salah satu keindahan alam tersembunyi di Sumba yang masih belum banyak
+        terjamah oleh para wisatawan.Di Sumba Timur, Air Terjun Tanggedu adalah salah satu air terjun
+        kebanggaan warga yang enggak boleh kamu lewatkan. Air Terjun ini terletak di Desa Tanggedu, Kecamatan
+        Haharu, berjarak 45 km dari pusat kota Wangaipu, Sumba Timur. </p>
+
+    </nav>
+    <article>
+<b> Comment(4) : </b>
+      <div id="overflowTest">
+        <table>
+  <tr>
+    <th>User</th>
+    <th>Comment</th>
+  </tr>
+  <tr>
+    <td>LL
+      <img src="star1.png">
+    </td>
+    <td>Hmm Manjalitaaaa</td>
+
+  </tr>
+  <tr>
+    <td>Syahroni
+    <img src="star1.png">
+    </td>
+    <td>Sesuatu banget</td>
+
+  </tr>
+  <tr>
+    <td>Sadewa
+    <img src="star1.png">
+    </td>
+    <td>Indah, kayak cinta kita</td>
+
+  </tr>
+  <tr>
+    <td>Roni
+    <img src="star1.png">
+    </td>
+    <td>Paling best pokok</td>
+
+  </tr>
+  </table>
+      </div>
+
+      <p><b> Write Your Comment : </b></p>
+      <form action="/action_page.php">
+      <label for="fname">Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <p></p>
+      <label for="ename">Email</label>
+      <input type="text" id="ename" name="emailname" placeholder="Your Email..">
+      <p></p>
+      Your Comment:
+      <br></br>
+      <textarea name="komentar" rows="5" cols="25" style=" border: 1px #cccccc";>
+      </textarea>
+
+      <input type="submit" value="Submit">
+      </form>
+    </aritcle>
+
+  </section>
+
+
+  </body>
+  </html>

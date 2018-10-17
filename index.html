@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YukJalan!!</title>
+    <style>
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial;
+  }
+
+
+  header {
+      background-color: #666;
+      padding: 30px;
+      text-align: right;
+      font-size: 35px;
+      color: white;
+  }
+
+  menu{
+    width: 100%;
+    height : 40px;
+    margin: auto;
+    position:relative;
+    line-height: 50px;
+    padding-left: 0px;
+
+  }
+
+  menu ul {
+      list-style:none;
+  }
+
+  menu ul li a{
+    width: 100px;
+    height: 40px;
+    border-right: 1px solid;
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+
+  }
+
+  menu ul li a:hover{
+    background-color: blue;
+    display: block;
+  }
+
+  menu ul li:hover .sub1 {display:block}
+  menu ul .sub1 {
+      display:none;
+      text-decoration-color: white;
+      position:absolute;
+      padding-left:  40px;
+      left:100px;
+      top:40px;
+      background-color:#666;
+  }
+  sub1 a:hover { color:#fff }
+
+  menu ul li:hover .sub2 {display:block}
+  menu ul .sub2 {
+      display:none;
+      text-decoration-color: white;
+      position:absolute;
+      padding-left: 15px;
+      left:225px;
+      top:40px;
+      background-color:#666;
+  }
+  sub2 a:hover { color:#fff }
+
+  h3 { color: #666666 ; border: 1px #cccccc; width: 150px ; background-color: #cccccc; text-align: left;}
+
+  nav {
+      float: left;
+      width: 40%;
+      height: 500px;
+      background: #cccccc;
+      padding: 20px;
+      text-align: justify;
+
+  }
+
+  article {
+      background-image: url('qws.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: left;
+      padding: 20px;
+      width: 60%;
+      background-color: #f1f1f1;
+      height: 500px;
+  }
+
+
+  section:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  @media (max-width: 600px) {
+      nav, article {
+          width: 100%;
+          height: auto;
+      }
+  }
+  </style>
+  </head>
+  <body>
+
+  <header> YukJalan!! <img src="foot.png" style="width : 55px"> </header>
+
+  <menu>
+    <ul>
+      <li><a href="index.html">Home</li></a>
+      <li><a href="">Destination</a>
+      <ul class="sub1">
+                      <li><a href="gallery.html">Air Terjun</a></li>
+                      <li><a href="">Bukit</a></li>
+                      <li><a href="">Pantai</a></li>
+                      <li><a href="">K.Adat</a></li>
+                      <li><a href="">Danau</a></li>
+                  </ul>
+                  </li>
+      <li><a href="#">Location</a>
+      <ul class="sub2">
+                      <li><a href="gallery2.html">S.Tengah</a></li>
+                      <li><a href="">S.Barat</a></li>
+                      <li><a href="">S.Timur</a></li>
+                      <li><a href="">S.Barat Daya</a></li>
+
+                  </ul>
+                  </li>
+      <li><a href="dua.html">About Us</li></a>
+
+    </ul>
+  </menu>
+
+  <section>
+    <nav>
+      <p> <b>YukJalan!!</b></p>
+        <p style="border: 2px solid #666666 ;padding : 20px; line-height: 1.5">Kami adalah penyedia jasa layanan informasi mengenai destinasi yang
+        ada pada Pulau Sumba </p>
+        <p><b>Pulau Sumba</b></p>
+      <p style="border: 2px solid #666666 ;padding : 20px; line-height: 1.5"> Pulau Sumba layaknya permata tersembunyi Indonesia di Nusa Tenggara
+        Timur. Berhadapan langsung dengan Samudra Hindia, membuat alam Sumba
+        indah tiada tara. Yang semula hanya terkenal di kalangan para
+        peselancar mancanegara, kini warga Indonesia pun mulai
+        berbondong-bondong berlibur ke Pulau Sumba.Jika anda belum mempunyai rencana liburan untuk musim panas tahun ini,
+        maka Sumba merupakan pilihan yang tepat untuk dikunjungi bersama teman
+        maupun keluarga. </p>
+      </p>
+    </nav>
+    <article>
+    </aritcle>
+
+  </section>
+
+
+  </body>
+  </html>

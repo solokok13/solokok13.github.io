@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Us</title>
+    <style>
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial;
+  }
+
+
+  header {
+      background-color: #666;
+      padding: 30px;
+      text-align: right;
+      font-size: 35px;
+      color: white;
+  }
+
+  menu{
+    width: 100%;
+    height : 40px;
+    margin: auto;
+    position:relative;
+    line-height: 50px;
+    padding-left: 0px;
+
+  }
+
+  menu ul {
+      list-style:none;
+  }
+
+  menu ul li a{
+    width: 100px;
+    height: 40px;
+    border-right: 1px solid;
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+
+  }
+
+  menu ul li a:hover{
+    background-color: blue;
+    display: block;
+  }
+
+  menu ul li:hover .sub1 {display:block}
+  menu ul .sub1 {
+      display:none;
+      text-decoration-color: white;
+      position:absolute;
+      padding-left:  40px;
+      left:100px;
+      top:40px;
+      background-color:#666;
+  }
+  sub1 a:hover { color:#fff }
+
+  menu ul li:hover .sub2 {display:block}
+  menu ul .sub2 {
+      display:none;
+      text-decoration-color: white;
+      position:absolute;
+      padding-left: 15px;
+      left:225px;
+      top:40px;
+      background-color:#666;
+  }
+  sub2 a:hover { color:#fff }
+
+  h3 { color: #666666 ; border: 1px #cccccc; width: 150px ; background-color: #cccccc; text-align: left;}
+
+  nav {
+    background-image: url('ab.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    padding: 20px;
+    width: 60%;
+    background-color: #f1f1f1;
+    height: 400px;
+
+  }
+
+  article {
+
+    float: left;
+    width: 40%;
+    height: 400px;
+    background: #cccccc;
+    padding: 20px;
+    text-align: justify;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+  section:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  footer {
+    background-color: #cccccc;
+    padding: 10px;
+    height: 250px;
+    text-align: center;
+    color: #666666 ;
+}
+
+  @media (max-width: 600px) {
+      nav, article {
+          width: 100%;
+          height: auto;
+      }
+  }
+  </style>
+  </head>
+  <body>
+
+  <header> YukJalan!! <img src="foot.png" style="width : 55px"> </header>
+  <menu>
+    <ul>
+      <li><a href="index.html">Home</li></a>
+      <li><a href="">Destination</a>
+      <ul class="sub1">
+                      <li><a href="gallery.html">Air Terjun</a></li>
+                      <li><a href="">Bukit</a></li>
+                      <li><a href="">Pantai</a></li>
+                      <li><a href="">K.Adat</a></li>
+                      <li><a href="">Danau</a></li>
+                  </ul>
+                  </li>
+      <li><a href="#">Location</a>
+      <ul class="sub2">
+                      <li><a href="gallery2.html">S.Tengah</a></li>
+                      <li><a href="">S.Barat</a></li>
+                      <li><a href="">S.Timur</a></li>
+                      <li><a href="">S.Barat Daya</a></li>
+
+                  </ul>
+                  </li>
+      <li><a href="dua.html">About Us</li></a>
+
+    </ul>
+  </menu>
+  <h3> About Us </h3>
+
+  <section>
+    <nav>
+
+    </nav>
+    <article>
+      <form action="/action_page.php">
+   <label for="fname">Name</label>
+   <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+   <label for="ename">Email</label>
+   <input type="text" id="ename" name="emailname" placeholder="Your Email..">
+
+  Your Massage:
+  <br></br>
+<textarea name="komentar" rows="5" cols="50" style=" border: 1px #cccccc";>
+</textarea>
+
+   <input type="submit" value="Submit">
+ </form>
+    </article>
+
+  </section>
+
+  <footer>
+    <p style="border: 2px solid #666666 ;padding : 5px; line-height: 1.5; width : 350px; text-decoration: left;"> For more information, follow our OA : </p>
+<p style="text-align: left "> <img src="fb.png" style=" width : 32px">  YukJalan </p>
+<p style="text-align: left "> <img src="ig.png" style=" width : 32px">  @YukJalan_ </p>
+<p style="text-align: left "> <img src="tw.png" style=" width : 32px">  @YukJalan_ </p>
+</footer>
+
+
+  </body>
+  </html>
